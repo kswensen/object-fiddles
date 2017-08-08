@@ -6,7 +6,7 @@
   var me = {
   	  name: "Kegan",
 	  age: 22
-  }
+  };
   alert(me.name);
 
 
@@ -91,10 +91,10 @@ Instead, console.log your whole backPack object and then check out the console. 
 
 //Now, loop through your object and alert every value. *Tyler --> 24 --> 6'0 --> Male, etc etc
 
-    for (var prop in alsoMe) {
-  if (alsoMe.hasOwnProperty(prop)) {
-    alert(alsoMe[prop]);
-  } 
+  for (var prop in alsoMe) {
+	if (alsoMe.hasOwnProperty(prop)) {
+		alert(alsoMe[prop]);
+  }
 
 
 
@@ -163,7 +163,7 @@ var user1 = {
     birthday: undefined,
     username: 'tylermcginnis33',
     age: 0
-}
+};
 /*Above you're given a user object. Loop through the user object checking to make sure
 that each value is truthy. If it's not truthy, remove it from the object. */
 
